@@ -25,7 +25,7 @@ def get_bbc_news(url):
     len(coverpage_news)
     number_of_articles = 5
 
-    # Empty lists for content, links and titles
+    # Empty lists for content, links, titles and tag
     news_contents = []
     list_links = []
     list_titles = []
@@ -101,7 +101,6 @@ def set_pandas_display_options() -> None:
     display.max_rows = None
     display.max_colwidth = None
     display.width = None
-    # display.precision = 2  # set as needed
 
 def write_news_dataFrame(df,parquetFilePath):
     table_from_pandas = pa.Table.from_pandas(df)
