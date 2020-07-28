@@ -18,7 +18,7 @@ A GitHub repository for Walkover coding test, here is the list of features:
 Install the prerequisite modules:
 
 ```bash
-pip install -r prerequisite/requirements.txt
+pip install -r requirements.txt
 ```
 
 Then run the script:
